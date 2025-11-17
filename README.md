@@ -15,14 +15,13 @@ Quick start (backend):
 2. `cd backend`
 3. Copy `.env.example` -> `.env` and fill values (MONGO_URI, JWT_SECRET, SMTP settings optional)
 4. `npm install`
-5. `npm run dev` (uses nodemon) — server runs on port 5000 by default
+5. `npm run dev`(uses nodemon) — server runs on port 5000 by default
 
 Quick start (frontend):
 1. `cd frontend`
-2. Copy `.env.example` -> `.env.local` and set `VITE_API_URL` to your backend (e.g. http://localhost:5000)
+2. Copy `.env.example`-> `.env.local` and set `VITE_API_URL` to your backend (e.g. http://localhost:5000)
 3. `npm install`
 4. `npm run dev` — open http://localhost:5173
 
 Notes:
-- This scaffold is meant to be a complete demo. Replace local image storage with S3 for production.
 - SMTP/email notifications are optional — configure in backend `.env` and enable in bookings controller.
